@@ -23,7 +23,7 @@ export default function App({ Component, pageProps }: MyAppProps) {
 
   return (
     <>
-      <div className={`${inter.className}`}>
+      <div className={`${inter.className} `}>
         {getLayout(<Component {...pageProps} />)}
       </div>
     </>

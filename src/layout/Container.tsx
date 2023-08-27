@@ -8,7 +8,9 @@ interface ContainerProps {
 
 export default function Container({ children, className }: ContainerProps) {
   return (
-    <div className={cn("flex flex-col  max-w-7xl mx-auto px-14", className)}>
+    <div
+      className={cn("flex flex-col mx-auto  w-full max-w-7xl px-5", className)}
+    >
       {children}
     </div>
   );
