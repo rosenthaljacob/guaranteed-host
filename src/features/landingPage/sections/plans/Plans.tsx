@@ -30,13 +30,12 @@ export default function Plans() {
               { title: "10GB SSD Storage", icon: "fa6-solid:hard-drive" },
               { title: "100GB Bandwidth", icon: "fa6-solid:chart-line" },
             ]}
-            buttonLabel="Get Started! (Most Popular!)"
+            buttonLabel="Get Started!"
             buttonAction={() => console.log("Starter Pack selected")}
-          >
-            <LimitedTimeOffer />
-          </Plan>
+          />
 
           <Plan
+            className="shadow-2xl"
             title="Business Pro"
             offer="Save 20% with Annual Billing!"
             crossedOutPrice="$9.99/month"
@@ -47,9 +46,12 @@ export default function Plans() {
               { title: "Unlimited Bandwidth", icon: "fa6-solid:chart-line" },
               { title: "Free SSL Certificate", icon: "fa6-solid:lock" },
             ]}
-            buttonLabel="Go Pro!"
+            buttonLabel="Go Pro! (Most Popular!)"
             buttonAction={() => console.log("Business Pro selected")}
-          />
+            buttonVariant="default"
+          >
+            <LimitedTimeOffer />
+          </Plan>
 
           <Plan
             title="Enterprise Elite"

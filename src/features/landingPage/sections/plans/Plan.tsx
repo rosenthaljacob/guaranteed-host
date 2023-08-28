@@ -1,7 +1,7 @@
 import React from "react";
 // Components
 import { Card } from "@/components/ui/card";
-import { Button } from "@/components/ui/button";
+import { Button, ButtonProps } from "@/components/ui/button";
 // Utils
 import { cn } from "@/lib/utils";
 // Icons
@@ -22,6 +22,7 @@ interface PlanProps {
   buttonAction: () => void;
   className?: string;
   children?: React.ReactNode;
+  buttonVariant?: ButtonProps["variant"];
 }
 
 export default function Plan({
@@ -34,6 +35,7 @@ export default function Plan({
   buttonAction,
   className,
   children,
+  buttonVariant = "outline",
 }: PlanProps) {
   return (
     <Card
@@ -62,7 +64,11 @@ export default function Plan({
         ))}
       </div>
       {children}
-      <Button className="mt-auto" onClick={buttonAction}>
+      <Button
+        variant={buttonVariant}
+        className="mt-auto"
+        onClick={buttonAction}
+      >
         {buttonLabel}
       </Button>
     </Card>
