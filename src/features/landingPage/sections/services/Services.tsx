@@ -33,7 +33,10 @@ export default function Services() {
                 Secure your brand's online presence with our top-level domains.
                 Choose from .com, .net, .org, and more! Your dream domain is
                 just a click away.{" "}
-                <a href="#" className="font-medium text-primary underline">
+                <a
+                  href="#"
+                  className="font-medium text-primary hover:underline"
+                >
                   Find Your Perfect Domain!
                 </a>
               </>
