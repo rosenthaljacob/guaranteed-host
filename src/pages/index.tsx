@@ -1,3 +1,5 @@
+import Head from "next/head";
+// Sections
 import Hero from "@/features/landingPage/sections/hero/Hero";
 import Features from "@/features/landingPage/sections/hero/Features";
 import Plans from "@/features/landingPage/sections/plans/Plans";
@@ -17,6 +19,9 @@ Home.getLayout = (page: React.ReactNode) => (
 export default function Home() {
   return (
     <>
+      <Head>
+        <title>GuaranteedHost - Pioneers of Optimized Web Hosting</title>
+      </Head>
       <Hero />
       <Features />
       <Plans />
