@@ -24,7 +24,7 @@ export default function Header() {
     >
       <Link
         href="/"
-        className="max-w-7xl px-5 w-full mx-auto font-extrabold text-xl flex gap-1.5 items-center text-cyan-950"
+        className="max-w-7xl w-full mx-auto font-extrabold text-xl flex gap-1.5 items-center text-cyan-950 pl-1"
       >
         <img
           src="/logo.svg"

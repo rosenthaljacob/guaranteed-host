@@ -5,6 +5,7 @@ import Testimonials from "@/features/landingPage/sections/testimonials/Testimoni
 import FaqSection from "@/features/landingPage/sections/faq/FaqSection";
 import Services from "@/features/landingPage/sections/services/Services";
 import EcoHosting from "@/features/landingPage/sections/eco-hosting/EcoHosting";
+import Footer from "@/features/footer/Footer";
 
 // Layout
 import BaseLayout from "@/layout/BaseLayout";
@@ -23,6 +24,7 @@ export default function Home() {
       <Services />
       <EcoHosting />
       <FaqSection />
+      <Footer />
     </>
   );
 }
