@@ -28,7 +28,7 @@ export default function Testimonials() {
   ];
 
   return (
-    <section className="bg-gray-100 py-8">
+    <section className="bg-gray-100 py-8 w-full">
       <Container className="mx-auto text-center grid gap-8">
         <h2 className="text-3xl font-bold tracking-tight">
           What Our Customers Are Saying

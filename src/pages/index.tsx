@@ -2,6 +2,7 @@ import Hero from "@/features/landingPage/sections/hero/Hero";
 import Features from "@/features/landingPage/sections/hero/Features";
 import Plans from "@/features/landingPage/sections/plans/Plans";
 import Testimonials from "@/features/landingPage/sections/testimonials/Testimonials";
+import FaqSection from "@/features/landingPage/sections/faq/FaqSection";
 
 // Layout
 import BaseLayout from "@/layout/BaseLayout";
@@ -17,6 +18,7 @@ export default function Home() {
       <Features />
       <Plans />
       <Testimonials />
+      <FaqSection />
     </>
   );
 }
