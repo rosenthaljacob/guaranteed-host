@@ -20,7 +20,7 @@ export default function Header() {
       }}
     >
       <div className="max-w-7xl px-5 w-full mx-auto font-extrabold text-xl">
-        <p className="font-extrabold text-2xl tracking-wide">GuaranteedHost</p>
+        <p className="font-bold text-2xl tracking-wide">GuaranteedHost</p>
       </div>
     </header>
   );
