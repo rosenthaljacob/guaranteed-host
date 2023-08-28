@@ -22,9 +22,8 @@ export default function Hero() {
                 </p>
               </div>
               <p className="text-sm">
-                Your Gateway to Scalable, Secure, and Seamless Hosting
-                <br />
-                <span className="font-medium">From Just $2.99 a Month</span>
+                Your Gateway to Sustainable, Scalable, and Seamless Hosting{" "}
+                <br /> From Just $2.99 a Month!
               </p>
               <div className="flex justify-center gap-5">
                 <Button asChild variant="secondary" size="lg">
