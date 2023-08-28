@@ -15,6 +15,7 @@ export default function Document() {
         <link rel="icon" href="/favicon/favicon512x512.png" sizes="512x512" />
         {/* Meta tags */}
         <meta charSet="utf-8" />
+        <meta name="robots" content="index, follow" />
         <meta
           name="description"
           content="GuaranteedHost - Pioneers of Web Hosting"
