@@ -52,7 +52,7 @@ export default function Plans() {
   const prices = selectedPlan === "monthly" ? monthlyPrices : yearlyPrices;
 
   return (
-    <section className="flex flex-col w-full">
+    <section id="plans" className="flex flex-col w-full">
       <Container className="py-10 text-center grid gap-8">
         <h2 className="text-3xl font-bold tracking-tight">
           Unbeatable Plans for Unbeatable Websites!

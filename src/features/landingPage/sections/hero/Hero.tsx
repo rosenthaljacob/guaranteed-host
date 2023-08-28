@@ -1,6 +1,8 @@
 import React from "react";
 import Container from "@/layout/Container";
 import { Button } from "@/components/ui/button";
+import { Icon } from "@iconify/react";
+import Link from "next/link";
 
 export default function Hero() {
   return (
@@ -24,9 +26,14 @@ export default function Hero() {
                 <br />
                 <span className="font-medium">From Just $2.99 a Month</span>
               </p>
-              <div className="flex justify-center gap-3">
-                <Button variant="outline">See Pricing</Button>
-                <Button>Get Started</Button>
+              <div className="flex justify-center gap-5">
+                <Button asChild variant="secondary" size="lg">
+                  <Link href="/#plans">See Pricing</Link>
+                </Button>
+                <Button size="lg">
+                  Get Started
+                  <Icon icon="fa6-solid:arrow-right" className="ml-2" />
+                </Button>
               </div>
             </div>
           </div>
