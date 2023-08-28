@@ -1,6 +1,7 @@
 import "@/styles/globals.css";
 import type { AppProps } from "next/app";
 import type { NextPage } from "next";
+import { Analytics } from "@vercel/analytics/react";
 
 import { Inter } from "next/font/google";
 
@@ -25,6 +26,7 @@ export default function App({ Component, pageProps }: MyAppProps) {
     <>
       <div className={`${inter.className} `}>
         {getLayout(<Component {...pageProps} />)}
+        <Analytics />
       </div>
     </>
   );
