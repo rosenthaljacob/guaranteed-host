@@ -9,7 +9,7 @@ import { Icon } from "@iconify/react";
 export default function Features() {
   return (
     <section id="features" className="w-full flex flex-col">
-      <Container className="py-12 relative">
+      <Container className="py-24 relative">
         <div className="grid sm:grid-cols-3 gap-3 absolute -top-8 left-5 right-5">
           <Card className="p-5">
             <div className="grid gap-3">

@@ -1,5 +1,6 @@
 import Hero from "@/features/landingPage/sections/hero/Hero";
 import Features from "@/features/landingPage/sections/hero/Features";
+import Plans from "@/features/landingPage/sections/plans/Plans";
 
 // Layout
 import BaseLayout from "@/layout/BaseLayout";
@@ -13,6 +14,7 @@ export default function Home() {
     <>
       <Hero />
       <Features></Features>
+      <Plans></Plans>
     </>
   );
 }
