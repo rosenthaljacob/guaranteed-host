@@ -19,9 +19,7 @@ export default function Services() {
           </p>
         </div>
         <div className="grid md:py-5">
-          <div className="mx-auto w-4 h-10 bg-primary relative hidden md:block">
-            <span className="bg-primary rounded-full w-5 h-5 absolute -top-1 left-1/2 -translate-x-1/2" />
-          </div>
+          <div className="mx-auto w-4 h-10 bg-primary relative hidden md:block rounded-t-lg" />
           <TreeItem
             title="Global Connectivity, Local Speeds"
             description="Seamlessly connect to the world with our state-of-the-art global network infrastructure. Experience unparalleled speed and reliability, right at your fingertips!"
@@ -53,9 +51,7 @@ export default function Services() {
             description="Our customer service is second to none. With 24/7 support, we're always here to help you succeed."
             imagePath="/images/services/service.svg"
           />
-          <div className="mx-auto w-4 h-10 bg-primary relative hidden md:block">
-            <span className="bg-primary rounded-full w-5 h-5 absolute -bottom-1 left-1/2 -translate-x-1/2" />
-          </div>
+          <div className="mx-auto w-4 h-10 bg-primary relative hidden md:block rounded-b-lg" />
         </div>
       </Container>
     </section>

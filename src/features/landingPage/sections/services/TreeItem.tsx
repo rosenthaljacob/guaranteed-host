@@ -26,7 +26,7 @@ export default function TreeItem({
       <div className="flex-1">
         <Card
           className={cn(
-            "p-5 mx-5 my-2 flex items-center gap-5",
+            "p-5 md:mx-5 my-2 flex items-center gap-5",
             right && "flex-row-reverse"
           )}
         >
