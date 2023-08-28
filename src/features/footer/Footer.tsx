@@ -9,21 +9,31 @@ const Footer = () => {
         {/* Quick Links */}
         <div>
           <h4 className="font-bold mb-3">Quick Links</h4>
-          <ul className="underline text-sm grid gap-1">
+          <ul className="text-sm grid gap-1">
             <li>
-              <Link href="/">Home</Link>
+              <Link className="hover:underline" href="/">
+                Home
+              </Link>
             </li>
             <li>
-              <Link href="#">Plans & Pricing</Link>
+              <Link className="hover:underline" href="#">
+                Plans & Pricing
+              </Link>
             </li>
             <li>
-              <Link href="#">Services</Link>
+              <Link className="hover:underline" href="#">
+                Services
+              </Link>
             </li>
             <li>
-              <Link href="#">FAQ</Link>
+              <Link className="hover:underline" href="#">
+                FAQ
+              </Link>
             </li>
             <li>
-              <Link href="#">Contact Us</Link>
+              <Link className="hover:underline" href="#">
+                Contact Us
+              </Link>
             </li>
           </ul>
         </div>
@@ -31,21 +41,31 @@ const Footer = () => {
         {/* About Us */}
         <div>
           <h4 className="font-bold mb-3">About Us</h4>
-          <ul className="underline text-sm grid gap-1">
+          <ul className="text-sm grid gap-1">
             <li>
-              <Link href="#">Our Mission</Link>
+              <Link className="hover:underline" href="#">
+                Our Mission
+              </Link>
             </li>
             <li>
-              <Link href="#">Blog</Link>
+              <Link className="hover:underline" href="#">
+                Blog
+              </Link>
             </li>
             <li>
-              <Link href="#">Careers</Link>
+              <Link className="hover:underline" href="#">
+                Careers
+              </Link>
             </li>
             <li>
-              <Link href="#">Privacy Policy</Link>
+              <Link className="hover:underline" href="#">
+                Privacy Policy
+              </Link>
             </li>
             <li>
-              <Link href="#">Terms of Service</Link>
+              <Link className="hover:underline" href="#">
+                Terms of Service
+              </Link>
             </li>
           </ul>
         </div>
@@ -53,18 +73,26 @@ const Footer = () => {
         {/* Support */}
         <div>
           <h4 className="font-bold mb-3">Support</h4>
-          <ul className="underline text-sm grid gap-1">
+          <ul className="text-sm grid gap-1">
             <li>
-              <Link href="#">24/7 Customer Service</Link>
+              <Link className="hover:underline" href="#">
+                24/7 Customer Service
+              </Link>
             </li>
             <li>
-              <Link href="#">Knowledge Base</Link>
+              <Link className="hover:underline" href="#">
+                Knowledge Base
+              </Link>
             </li>
             <li>
-              <Link href="#">Video Tutorials</Link>
+              <Link className="hover:underline" href="#">
+                Video Tutorials
+              </Link>
             </li>
             <li>
-              <Link href="#">System Status</Link>
+              <Link className="hover:underline" href="#">
+                System Status
+              </Link>
             </li>
           </ul>
         </div>
@@ -72,26 +100,26 @@ const Footer = () => {
         {/* Connect With Us */}
         <div>
           <h4 className="font-bold mb-3">Connect With Us</h4>
-          <ul className="underline text-sm grid gap-1">
+          <ul className="text-sm grid gap-1">
             <li>
-              <a
-                className="flex items-center gap-1.5"
+              <Link
+                className="flex items-center gap-1.5 hover:underline"
                 href="https://github.com/rosenthaljacob/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <Icon icon="akar-icons:github-fill" /> GitHub
-              </a>
+              </Link>
             </li>
             <li>
-              <a
-                className="flex items-center gap-1.5"
+              <Link
+                className="flex items-center gap-1.5 hover:underline"
                 href="https://www.linkedin.com/in/j-rosenthal/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <Icon icon="akar-icons:linkedin-fill" /> LinkedIn
-              </a>
+              </Link>
             </li>
           </ul>
         </div>
@@ -101,14 +129,14 @@ const Footer = () => {
       <div className="text-center mt-8 text-sm">
         <p>
           Designed and Developed by{" "}
-          <a
+          <Link
             className="underline"
             href="https://www.linkedin.com/in/j-rosenthal/"
             target="_blank"
             rel="noopener noreferrer"
           >
             Jacob Rosenthal
-          </a>
+          </Link>
         </p>
         <p>© 2023 GuaranteedHost. All rights reserved.</p>
       </div>
