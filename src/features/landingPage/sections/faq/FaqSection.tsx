@@ -63,7 +63,11 @@ export default function FaqSection() {
           className="w-full max-w-lg mx-auto"
         >
           {faqs.map((faq, index) => (
-            <AccordionItem key={index} value={`item-${index}`}>
+            <AccordionItem
+              key={index}
+              value={`item-${index}`}
+              className=" border-gray-400"
+            >
               <AccordionTrigger>{faq.question}</AccordionTrigger>
               <AccordionContent>{faq.answer}</AccordionContent>
             </AccordionItem>
