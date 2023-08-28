@@ -44,7 +44,7 @@ export default function EcoHosting() {
               Make your website as eco-friendly as our data centers.
             </p>
             <div className="flex mt-4">
-              <Button className="ml-auto bg-emerald-700 hover:bg-emerald-700/90">
+              <Button className="ml-auto bg-emerald-700 hover:bg-emerald-700/90 active:bg-emerald-700/80">
                 Go Green With Us
               </Button>
             </div>
