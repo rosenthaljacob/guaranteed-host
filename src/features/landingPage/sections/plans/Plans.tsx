@@ -54,9 +54,9 @@ export default function Plans() {
   return (
     <section className="flex flex-col w-full">
       <Container className="py-10 text-center grid gap-8">
-        <h4 className="text-3xl font-bold tracking-tight">
+        <h2 className="text-3xl font-bold tracking-tight">
           Unbeatable Plans for Unbeatable Websites!
-        </h4>
+        </h2>
 
         <Tabs
           value={selectedPlan}
