@@ -10,19 +10,19 @@ export default function Testimonials() {
     {
       name: "Sarah Williams",
       role: "CEO, TechSavvy Solutions",
-      image: "/images/sarah-williams.jpeg",
+      image: "/images/profiles/sarah-williams.jpeg",
       text: "Switching to GuaranteedHost was the best decision we ever made. The 24/7 support is a lifesaver!",
     },
     {
       name: "Michael Thompson",
       role: "Lead Developer, GreenWeb Innovations",
-      image: "/images/michael-thompson.jpeg",
+      image: "/images/profiles/michael-thompson.jpeg",
       text: "The performance and uptime are unmatched! I can focus on coding rather than server issues.",
     },
     {
       name: "Emily Davis",
       role: "Founder, The Mindful Blogger",
-      image: "/images/emily-davis.jpeg",
+      image: "/images/profiles/emily-davis.jpeg",
       text: "The user interface is so intuitive, and the plans are straightforward. Highly recommended!",
     },
   ];
