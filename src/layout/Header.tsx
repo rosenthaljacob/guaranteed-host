@@ -15,7 +15,7 @@ export default function Header() {
   return (
     <header
       className={cn(
-        "h-20 fixed w-full top-0 flex justify-between items-center px-5 z-50",
+        "h-20 fixed w-full top-0 flex justify-between items-center z-50",
         isOffset && "bg-background/50 backdrop-blur-lg shadow-md"
       )}
       style={{
