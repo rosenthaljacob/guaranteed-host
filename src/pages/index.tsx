@@ -4,6 +4,7 @@ import Plans from "@/features/landingPage/sections/plans/Plans";
 import Testimonials from "@/features/landingPage/sections/testimonials/Testimonials";
 import FaqSection from "@/features/landingPage/sections/faq/FaqSection";
 import Services from "@/features/landingPage/sections/services/Services";
+import EcoHosting from "@/features/landingPage/sections/eco-hosting/EcoHosting";
 
 // Layout
 import BaseLayout from "@/layout/BaseLayout";
@@ -20,6 +21,7 @@ export default function Home() {
       <Plans />
       <Testimonials />
       <Services />
+      <EcoHosting />
       <FaqSection />
     </>
   );
