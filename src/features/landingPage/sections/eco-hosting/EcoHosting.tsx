@@ -11,14 +11,17 @@ export default function EcoHosting() {
   return (
     <section id="eco-hosting" className="w-full bg-emerald-100">
       <Container className="py-10 grid gap-8">
-        <h2 className="text-3xl font-bold text-center tracking-tight">
-          Eco-friendly hosting
-        </h2>
-        <Card className="flex p-5 max-w-xl w-full mx-auto gap-5">
-          <Icon
-            icon="fluent:earth-leaf-32-regular"
-            className="w-20 h-20 text-emerald-700"
-          />
+        <Card className="grid p-5 max-w-xl w-full mx-auto gap-5">
+          <div className="flex items-center gap-4 text-emerald-700">
+            <Icon
+              icon="fluent:earth-leaf-32-regular"
+              className="w-16 h-16  text-emerald-700"
+            />
+            <h2 className="text-2xl sm:text-3xl font-bold text-center tracking-tight">
+              Eco-friendly hosting
+            </h2>
+          </div>
+
           <div className="grid gap-1">
             <h6 className="text-medium font-medium text-emerald-700 ">
               Sustainably Fast, Ethically Priced
