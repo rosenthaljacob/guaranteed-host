@@ -23,7 +23,7 @@ export default function Document() {
           name="keywords"
           content="web hosting, domain, server, cloud, security"
         />
-        <meta name="author" content="Your Name" />
+        <meta name="author" content="Jacob Rosenthal" />
 
         {/* Open Graph */}
         <meta
