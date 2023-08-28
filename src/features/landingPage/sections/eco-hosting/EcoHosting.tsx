@@ -22,22 +22,22 @@ export default function EcoHosting() {
             </h2>
           </div>
 
-          <div className="grid gap-1">
-            <h6 className="text-medium font-medium text-emerald-700 ">
+          <div className="grid gap-0.5">
+            <h6 className="font-bold text-emerald-700 ">
               Sustainably Fast, Ethically Priced
             </h6>
             <p className="text-sm">
               Our servers are powered by renewable energy, ensuring your
               website's carbon footprint is as light as possible.
             </p>
-            <h6 className="mt-2 text-medium font-medium text-emerald-700">
+            <h6 className="mt-2 font-bold text-emerald-700">
               Transparently Green
             </h6>
             <p className="text-sm">
               We're committed to sustainability and have the eco-certifications
               to prove it.
             </p>
-            <h6 className="mt-2 text-medium font-medium text-emerald-700">
+            <h6 className="mt-2 font-bold text-emerald-700">
               Join the Green Side
             </h6>
             <p className="text-sm">
