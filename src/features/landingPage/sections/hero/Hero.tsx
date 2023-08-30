@@ -21,7 +21,7 @@ export default function Hero() {
                   Web Hosting
                 </p>
               </div>
-              <p className="text-sm">
+              <p className="text-sm max-w-xs sm:max-w-none mx-auto">
                 Your Gateway to Sustainable, Scalable, and Seamless Hosting{" "}
                 <br /> From Just $2.99 a Month!
               </p>
