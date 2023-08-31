@@ -7,7 +7,7 @@ import Link from "next/link";
 export default function Hero() {
   return (
     <section id="hero" className="w-full flex flex-col  text-foreground">
-      <div className="w-full flex flex-col bg-gray-600/20">
+      <div className="w-full flex flex-col bg-gray-400/40">
         <Container className="py-48 relative">
           <div className="absolute bottom-1/2 left-1/2 -translate-x-1/2 translate-y-1/2 rounded-full bg-primary/30 h-1/2 w-1/2 blur-xl opacity-50"></div>
 
@@ -26,10 +26,15 @@ export default function Hero() {
                 <br /> From Just $2.99 a Month!
               </p>
               <div className="flex justify-center gap-5">
-                <Button asChild variant="secondary" size="lg">
+                <Button
+                  asChild
+                  variant="secondary"
+                  size="lg"
+                  className="shadow-md"
+                >
                   <Link href="/#plans">See Pricing</Link>
                 </Button>
-                <Button size="lg">
+                <Button size="lg" className="shadow-md">
                   Get Started
                   <Icon icon="fa6-solid:arrow-right" className="ml-2" />
                 </Button>
