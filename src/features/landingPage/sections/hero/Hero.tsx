@@ -8,7 +8,7 @@ export default function Hero() {
   return (
     <section id="hero" className="w-full flex flex-col  text-foreground">
       <div className="w-full flex flex-col bg-gray-400/30">
-        <Container className=" py-32 relative">
+        <Container className=" py-40 relative">
           <div className="absolute bottom-1/2 left-1/2 -translate-x-1/2 translate-y-1/2 rounded-full bg-primary/30 h-1/2 w-1/2 blur-xl opacity-50"></div>
 
           <div className=" w-full pt-20 flex items-center text-center mx-auto relative">
