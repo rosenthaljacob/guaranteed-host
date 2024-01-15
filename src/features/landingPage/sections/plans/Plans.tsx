@@ -62,10 +62,27 @@ export default function Plans() {
           value={selectedPlan}
           onValueChange={handlePlanChange}
           className="mx-auto w-full sm:w-[400px] lg:w-1/3 px-2.5"
+          id="tabpanel-plans"
         >
           <TabsList className="grid w-full grid-cols-2">
-            <TabsTrigger value="monthly">Monthly plan</TabsTrigger>
-            <TabsTrigger value="yearly">Yearly plan</TabsTrigger>
+            <TabsTrigger
+              aria-label="Try our monthly plans"
+              name="monthly"
+              value="monthly"
+              aria-selected={selectedPlan === "monthly"}
+              aria-controls="tabpanel-plans"
+            >
+              Monthly plan
+            </TabsTrigger>
+            <TabsTrigger
+              aria-label="Try our yearly plans"
+              name="yearly"
+              value="yearly"
+              aria-selected={selectedPlan === "yearly"}
+              aria-controls="tabpanel-plans"
+            >
+              Yearly plan
+            </TabsTrigger>
           </TabsList>
         </Tabs>
         <div className="grid sm:grid-cols-3 gap-5">

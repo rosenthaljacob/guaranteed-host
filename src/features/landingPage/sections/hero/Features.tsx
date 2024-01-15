@@ -14,7 +14,9 @@ export default function Features() {
           <Card className="p-5">
             <div className="grid gap-3">
               <div className="flex items-center text-primary font-medium">
-                <Icon icon="fa6-solid:headset" className="h-5 w-5 mr-2" />
+                <div className="h-5 w-5 mr-2">
+                  <Icon icon="fa6-solid:headset" className="h-5 w-5" />
+                </div>
                 <h6>24/7 Live Chat & Phone Support</h6>
               </div>
               <p>
@@ -26,10 +28,9 @@ export default function Features() {
           <Card className="p-5">
             <div className="grid gap-3">
               <div className="flex items-center text-primary font-medium">
-                <Icon
-                  icon="fa6-solid:bolt-lightning"
-                  className="h-5 w-5 mr-2"
-                />
+                <div className="h-5 w-5 mr-2">
+                  <Icon icon="fa6-solid:bolt-lightning" className="h-5 w-5" />
+                </div>
                 <h6>Next-Gen Performance</h6>
               </div>
               <p>
@@ -42,7 +43,9 @@ export default function Features() {
           <Card className="p-5">
             <div className="grid gap-3">
               <div className="flex items-center text-primary font-medium">
-                <Icon icon="fa6-solid:shield-heart" className="h-5 w-5 mr-2" />
+                <div className="h-5 w-5 mr-2">
+                  <Icon icon="fa6-solid:shield-heart" className="h-5 w-5" />
+                </div>
                 <h6>100% Money-Back Guarantee</h6>
               </div>
               <p>

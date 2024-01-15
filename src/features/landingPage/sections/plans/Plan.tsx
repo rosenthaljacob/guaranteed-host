@@ -58,7 +58,9 @@ export default function Plan({
       <div className="grid gap-1 pb-5">
         {features.map((feature) => (
           <div className="flex items-center gap-2" key={feature.title}>
-            <Icon icon={feature.icon} className="h-4 w-4 text-primary" />
+            <div className="h-4 w-4">
+              <Icon icon={feature.icon} className="h-4 w-4 text-primary" />
+            </div>
             <p className="text-sm">{feature.title}</p>
           </div>
         ))}
