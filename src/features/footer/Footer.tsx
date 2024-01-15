@@ -9,7 +9,7 @@ const Footer = () => {
         {/* Quick Links */}
         <div>
           <h4 className="font-bold mb-3">Quick Links</h4>
-          <ul className="text-sm grid gap-1">
+          <ul className="text-sm grid gap-3 sm:gap-1">
             <li>
               <Link className="hover:underline" href="/">
                 Home
@@ -41,7 +41,7 @@ const Footer = () => {
         {/* About Us */}
         <div>
           <h4 className="font-bold mb-3">About Us</h4>
-          <ul className="text-sm grid gap-1">
+          <ul className="text-sm grid gap-3 sm:gap-1">
             <li>
               <Link className="hover:underline" href="#">
                 Our Mission
@@ -73,7 +73,7 @@ const Footer = () => {
         {/* Support */}
         <div>
           <h4 className="font-bold mb-3">Support</h4>
-          <ul className="text-sm grid gap-1">
+          <ul className="text-sm grid gap-3 sm:gap-1">
             <li>
               <Link className="hover:underline" href="#">
                 24/7 Customer Service
@@ -100,7 +100,7 @@ const Footer = () => {
         {/* Connect With Us */}
         <div>
           <h4 className="font-bold mb-3">Connect With Us</h4>
-          <ul className="text-sm grid gap-1">
+          <ul className="text-sm grid gap-3 sm:gap-1">
             <li>
               <Link
                 className="flex items-center gap-1.5 hover:underline"
